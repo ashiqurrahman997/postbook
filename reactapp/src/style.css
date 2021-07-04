@@ -1,0 +1,73 @@
+.center{
+
+    text-align: center;
+   
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  td, th {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  } 
+
+  #tr:hover {
+    background-color: #ffff99;
+    box-shadow:2px 2px  rgb(66, 64, 64) ;
+  }
+
+  .paginationStyle{
+     margin-top: 10px;
+    list-style: none;
+    display: flex;
+    justify-content:center;
+   
+  }
+  .paginationStyle a{
+   padding:5px ;
+   border: 1px solid;
+   border-radius: 5px;
+   margin: 2px;
+   cursor: pointer;
+   color:black;
+  }
+  .paginationStyle a:hover{
+     color: white;
+     background-color:gray;
+   
+   }
+   .active a{
+    color: white;
+    background-color:gray;
+  
+  }
+  .card {
+   
+    padding: 15px;
+  
+    margin: 10px;
+    margin-left: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+  }
+
+  
+
+  .boder{
+    border: 2px solid #dddddd;
+    padding: 5px; padding-left: 10px;
+  }
+
+  
