@@ -12,7 +12,7 @@ export default function App() {
             <Router>
                 <div>
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                    <a className="navbar-brand" >React App</a>                 
+                    <a className="navbar-brand" >Post Book</a>                 
                     <div className="navbar-collapse" >
                         <div className="navbar-nav">
                             <Link className='nav-link' to="/">Home</Link>
